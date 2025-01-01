@@ -10,3 +10,6 @@ This is a modern web application created for a fancy dress store, allowing users
 - Brand Affiliates: Displays brands and collaborators associated with the store.
 - Mobile App Support: Promotes store applications for Android and iOS devices.
 - Footer Links: Includes useful links for policies, social media, and more."
+## Web UI
+![image](https://github.com/user-attachments/assets/7ded57bc-c945-4a60-b0e9-cdffac2254b1)
+
