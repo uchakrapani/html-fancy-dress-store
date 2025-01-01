@@ -269,6 +269,14 @@ small {
   text-align: center;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
+}
+
+.app-logo {
+  margin-top: 20px;
+}
+
+.app-logo img {
+  width: 140px;
 }
