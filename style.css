@@ -117,8 +117,43 @@ nav ul li a:hover::after {
   margin-bottom: 30px;
 }
 
+/* Container for image and title */
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Title overlay styling */
+.title-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4); /* Transparent black background */
+  color: #fff; /* White font color */
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Image hover effect to show title */
+.image-container:hover .title-overlay {
+  opacity: 1;
+}
+
+/* Ensure images fill the column and maintain aspect ratio */
 .col-3 img {
   width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Optional: Add zoom effect on hover */
+.image-container:hover img {
+  transform: scale(1.1);
 }
 
 .small-container {
